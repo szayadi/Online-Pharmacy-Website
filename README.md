@@ -1,2 +1,4 @@
 # Online-Pharmacy-Website
-Online pharmaceutical website repository for a team as part of a web design course group project.
+Online pharmaceutical website that will help 
+solve easy-access to medication issues caused 
+by the COVID-19 pandemic.
