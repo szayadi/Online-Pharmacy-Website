@@ -46,6 +46,87 @@ body {
   font-weight: 500;
 }
 
+.btnlogin {
+  width: 130;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #000;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #000;
+  font-weight: 500;
+  transition: .5s;
+
+}
+
+.btnlogin:hover {
+  background: #C1E1C1;
+  color: white;
+  border: 2px solid #C1E1C1;
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.wrapper .form-box-login {
+  transform: translateX(0);
+}
+
+.wrapper.active .form-box-login {
+  transition: none;
+  transform: translateX(-400px);
+}
+
+.wrapper.active .form-box-register {
+  transition: none;
+  transform: translateX(0);
+}
+
+.wrapper .form-box-register {
+  position: absolute;
+  transition: none;
+  transform:translateX(400px);
+}
+
+.btntologin {
+  width: 100%;
+  height: 45px;
+  background:#C1E1C1;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.input-box {
+  padding-bottom: 10px;
+}
+
+.login-register {
+  font-size: .9em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.login-register p a {
+  color: darkgreen;
+  text-decoration: none;
+  font-weight: 600; 
+}
+
+.login-register p a:hover {
+  text-decoration: underline;
+}
 .container {
   display: flex;
   align-items: center;
